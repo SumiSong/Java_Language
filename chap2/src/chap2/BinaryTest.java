@@ -1,0 +1,20 @@
+package chap2;
+
+public class BinaryTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 10; //십진수 0~9
+		int bNum = 0B1010; //비트
+		int oNum = 012; //8진수
+		int hNum = 0XA; //16진수(0~9, A~F)
+		
+		System.out.println(num);
+		System.out.println(bNum);
+		System.out.print(oNum + "\n");
+		System.out.println(hNum);
+
+	}
+
+}
+  

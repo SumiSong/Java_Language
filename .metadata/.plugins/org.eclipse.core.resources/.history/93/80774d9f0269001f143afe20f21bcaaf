@@ -1,0 +1,27 @@
+
+
+package chap7.java7.chunjae;
+
+public class Person {
+	int age;
+	String name;
+	
+	Person(int age, String name){
+		this.age = age;
+		this.name = name;
+	}
+	
+	public void eat() {}
+	
+	public void sleep() {}
+	
+	
+	public class Worker extends Person{
+		
+	}
+	
+	
+	
+
+}
+

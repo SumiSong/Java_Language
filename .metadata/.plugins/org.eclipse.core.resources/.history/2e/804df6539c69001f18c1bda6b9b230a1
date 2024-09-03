@@ -1,0 +1,12 @@
+package chap8;
+
+public class SuperSample {
+
+	public static void main(String[] args) {
+		//1. Human 객체 생성
+		Human h = new Human();
+		h.
+
+	}
+
+}

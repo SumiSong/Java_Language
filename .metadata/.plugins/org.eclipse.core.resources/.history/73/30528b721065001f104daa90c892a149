@@ -1,0 +1,28 @@
+package chap4;
+
+public class example {
+
+	public static void main(String[] args) {
+		int [] a = {1,2,3};
+		int [] b = new int[3];
+		int [] c;
+		
+		
+		int d; //메모리 차지도 안 함 아무것도 아님
+		int v = 3; // 값 할당 메모리에 올림
+		
+		
+		System.out.println(a);
+		System.out.println(a[0]);
+		
+		
+		String A = "hello";
+		String B = "hi";
+		
+		System.out.println(A);
+		System.out.println(B);
+
+
+	}
+
+}

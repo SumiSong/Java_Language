@@ -1,0 +1,39 @@
+package chap8;
+
+public class Animal {
+	public String text;
+	
+	Animal(){}
+
+	public void cry() {
+		
+	}
+
+	public void cry(String text) {
+		this.text = text;
+		System.out.println(text);
+	}
+	
+}
+
+
+class Bird extends Animal {
+	
+	
+	public Bird() {
+        this.text = "Chirp";  // 새 소리 기본값 설정
+    }
+
+    @Override
+    public void cry() {
+        super.cry(text);  // 기본값 "Chirp"를 출력
+    }
+    
+    
+}
+
+ class Cat extends Animal {
+	public void cry() {
+		super.cry(text);
+	}
+}

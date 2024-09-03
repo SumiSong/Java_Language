@@ -1,0 +1,27 @@
+package chap8;
+
+public class Student extends Person{
+	Student(){
+		super();
+	}
+	
+	Student(int age, String name){
+		super(age, name);
+	}
+	
+	int grade;
+	
+	public int getGrade() {
+		return this.grade;
+	}
+	
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+	
+	public void goToSchool() {
+		System.out.println("Go to School");
+	}
+	
+	
+}

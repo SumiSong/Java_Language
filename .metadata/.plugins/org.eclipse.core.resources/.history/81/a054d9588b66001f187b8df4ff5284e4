@@ -1,0 +1,14 @@
+package chap5;
+
+public class UnivStudent extends Student {
+
+	public UnivStudent() {
+
+	}
+
+	public UnivStudent(int g, char gn) {
+		super(g, gn); //super()는 부모클래스의 생성자를 호출
+
+	}
+
+}

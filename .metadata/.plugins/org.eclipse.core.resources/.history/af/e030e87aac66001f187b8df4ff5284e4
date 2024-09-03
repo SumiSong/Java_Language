@@ -1,0 +1,12 @@
+package chap7.java7.chunjae;
+
+import java.util.ArrayList;
+
+public class ArraySample {
+
+	public static void main(String[] args) {
+		ArrayList<BooksInfo> bookList = new ArrayList<BooksInfo>();
+
+	}
+
+}

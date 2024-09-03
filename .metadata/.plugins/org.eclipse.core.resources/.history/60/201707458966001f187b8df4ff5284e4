@@ -1,0 +1,60 @@
+package chap5;
+
+public class exClass {
+
+	public static void main(String[] args) {
+		Student st = new Student();
+		Student st2 = new Student(5, 'F');
+		Student st3 = st;
+		// st.gender = 'M'; // st.gender = ''; = null
+		
+//		st.getGender();
+		
+		
+		
+		st.setGender('F');
+		st.setStudentName("홍길순");
+		st.setGrade(5);
+		st.setStudentNo(1);
+		
+		st2.setGender('M');
+		st2.setStudentName("홍길동");
+		st2.setGrade(1);
+		st2.setStudentNo(2);
+		
+		System.out.println(st);
+		System.out.println(st2);
+		System.out.println(st3);
+		
+		System.out.println(st.getGender());
+		System.out.println(st.getGrade());
+		System.out.println(st.getStudentName());
+		System.out.println(st.getStudentNo());
+		
+		System.out.println(st2.getGender());
+		System.out.println(st2.getGrade());
+		System.out.println(st2.getStudentName());
+		System.out.println(st2.getStudentNo());
+		
+		System.out.println(st3.getGender());
+		System.out.println(st3.getGrade());
+		System.out.println(st3.getStudentName());
+		System.out.println(st3.getStudentNo());
+		
+		// set 을 해도 변함 없음
+		st3.setGender('M');
+		st3.setGrade(3);
+		st3.setStudentName("홍길순3");
+		st3.setStudentNo(11);
+		
+		// 해시코드값
+		System.out.println(System.identityHashCode(st));
+		System.out.println(System.identityHashCode(st2));
+		System.out.println(System.identityHashCode(st3));
+		
+		
+		int a = 0;
+		Integer b = 0;
+	}
+
+}

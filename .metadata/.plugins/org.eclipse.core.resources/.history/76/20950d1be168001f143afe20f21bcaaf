@@ -1,0 +1,50 @@
+package chap7.java7.chunjae;
+
+//import java.util.ArrayList;
+
+public class ArraySample {
+
+	public static void main(String[] args) {
+//		ArrayList<BooksInfo> bookList = new ArrayList<BooksInfo>();
+//		bookList.add(new BooksInfo("젊은 베르테르의 슬픔", "괴테"));
+//		bookList.add(new BooksInfo("개미", "베르나르 베르베르"));
+//		bookList.add(new BooksInfo("어린왕자", "생텍쥐페리"));
+//		
+//		for(int i=0; i<bookList.size(); i++) {
+//			BooksInfo bi = bookList.get(i);
+//			bi.showBookInfo();
+//		}
+		int [] a = new int[] {1,2,3,};
+		System.out.println(a);
+
+	} 
+
+}
+
+/*
+ String 클래스
+ 	- 문자열 저장 클래스 타입
+ 	- 문자열 " " 안에 표기 ( '' -> 문자 하나)
+ String 객체 생성 방법
+ 	- String a = new String("문자열"); _>stack영역
+ 	- String a = "문자열";
+ 	
+ 객체 내의 값은 변경 불가능 -> 새로운 객체를 생성하여 작성
+	 - String a = "ABCDEFG";
+	 - a[1] = "X" --> 안됨
+ 
+ 리터럴을 사용하여 바로 데이터를 입력한 경우 -> 문자열이 같은 경우 하나의 객체를 공유
+	 - String a = "안녕하세요";
+	 - String b = "안녕하세요";
+ 	 --> 메모리 공유함
+ 문자열 연산
+ 	- 문자열 + 문자열 -> 문자열 연결
+ 	- 문자열 + 기본자료형 -> 문자열로 연결
+ 	
+ String 관련 주요 메서드
+ 	- length() : 문자열 길이
+ 	- char
+ */
+
+
+

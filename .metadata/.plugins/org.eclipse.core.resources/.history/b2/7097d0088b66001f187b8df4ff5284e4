@@ -1,0 +1,14 @@
+package chap5;
+
+public class UnivStudent extends Student {
+
+	public UnivStudent() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public UnivStudent(int g, char gn) {
+		super(g, gn);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,48 @@
+package chap7.java7.chunjae;
+
+public class Person {
+	int age;
+	String name;
+	
+	Person(){}
+	
+	Person(int age, String name){
+		this.age = age;
+		this.name = name;
+	}
+	
+	public void eat() {
+		System.out.println("먹기");
+	}
+	
+	public void sleep() {
+		System.out.println("잠자기");
+	}
+
+}
+
+class Student extends Person{
+	Student(){
+		super();
+	}
+	Student(int age, String name){
+		
+	}
+	public String schoolNo;
+	
+	public void goToSchool() {
+		System.out.println("학교가기");
+	}
+}
+
+class Job extends Person{
+	Job(){
+		super();
+	}
+	public String jobNo;
+	
+	public void goToCompany() {
+		System.out.println("회사가기");
+	}
+}
+

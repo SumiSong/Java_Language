@@ -1,0 +1,30 @@
+package chap8;
+
+public class Animal {
+	public String text;
+
+	public void cry(String text) {
+		this.text = text;
+		System.out.println(text);
+	}
+
+
+//	void cry() {
+//		System.out.println("어흥");
+//	}
+	
+}
+
+
+
+class Bird extends Animal {
+	void cry() {
+		super();
+	}
+}
+
+ class Cat extends Animal {
+	void cry() {
+		super();
+	}
+}

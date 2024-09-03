@@ -1,0 +1,14 @@
+package chap2;
+
+public class BinaryTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 10;
+		int bNum = 
+		int cNum = 012;
+		int hNum = 0X;
+
+	}
+
+}

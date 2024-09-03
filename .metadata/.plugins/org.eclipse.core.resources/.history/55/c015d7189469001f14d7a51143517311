@@ -1,0 +1,15 @@
+package chap8;
+
+public class Student extends Person{
+	Student(){
+		super();
+	}
+	
+	Student(int age, String name){
+		super(age, name);
+		this.age = age;
+		this.name = name;
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+package chap8;
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		Animal bird = new Animal("짹짹");
+
+	}
+
+}

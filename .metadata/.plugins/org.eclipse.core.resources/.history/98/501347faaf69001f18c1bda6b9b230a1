@@ -1,0 +1,31 @@
+package chap8;
+
+public class SuperSample {
+
+	public static void main(String[] args) {
+		//1. Human 객체 생성
+//		Human h = new Human();
+//		h.setAge(20);
+//		h.setName("홍길동");  //h.name = "홍길동";
+//		h.eat();
+//		h.sleep();
+//		
+//		Student s = new Student();
+//		s.setName("홍길순");
+//		s.setAge(21);
+//		s.eat();
+//		s.sleep();
+//		s.goToSchool();
+//		
+//		Job j = new Job();
+//		j.setName("가나다");
+//		j.setAge(31);
+//		j.jobNo = "J123456";
+//		j.eat();
+//		j.sleep();
+//		j.goToCompany();
+		
+		
+	}
+
+}

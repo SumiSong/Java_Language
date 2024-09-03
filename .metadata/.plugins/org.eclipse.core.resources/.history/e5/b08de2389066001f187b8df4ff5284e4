@@ -1,0 +1,8 @@
+package chap5;
+
+public class Car {
+	String carName;
+	int carCC;
+	int maxPerson;
+	
+}
